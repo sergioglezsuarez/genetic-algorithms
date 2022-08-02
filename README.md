@@ -1,2 +1,3 @@
 # genetic-algorithms
  Implementation of genetic algorithms
+ We have a number of train docks and a number of trains, each one assigned to a certain dock. Each train has a number of wagons, which determines the time it spends at the dock. All trains share the same waiting line before entering docks. So, if there is one train at dock 1 and immediately behind another train which goes to dock 1, all trains behind that one must wait until it goes to its dock (even if the second train in line goes to a different dock). The goal is to use genetic algorithms to find the best train order which makes the total time in which all trains go through the docks the minimum possible.
